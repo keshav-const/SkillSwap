@@ -84,6 +84,8 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="skillswap-theme">
+      <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900/20 to-black text-white outline outline-red-500">
+
       <div className="min-h-screen w-full bg-gradient-to-br from-gray-900 via-purple-900/20 to-black text-white">
         {loading ? (
           <div className="flex items-center justify-center h-full">
@@ -117,6 +119,7 @@ function App() {
           </Router>
         )}
         <Toaster />
+      </div>
       </div>
     </ThemeProvider>
   );
