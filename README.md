@@ -23,7 +23,7 @@ The platform leverages a PostgreSQL database for managing users, skills, and mat
 
 ### Backend:
 * **Node.js**: JavaScript runtime environment.  
-* **Express.js**: Web framework for handling server APIs.  
+* **Express.js**: Web Framework for handling server APIs.  
 * **TypeScript**: Strongly typed backend code.  
 * **PostgreSQL**: Relational database for users, skills, and matches.  
 * **PL/pgSQL**: For stored procedures and advanced database logic.  
